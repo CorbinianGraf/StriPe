@@ -10,15 +10,17 @@ Requirments:
 This script uses Primer3, pyBedtools and Blast
 
 
-StriPe.py [-h] [--requirments REQUIRMENTS] --input INPUT --out OUT --ref REF [--dseq DSEQ] [--pfas PFAS]  
+StriPe.py [-h] --input INPUT --out OUT --ref REF --bDB BDB [--requirments REQUIRMENTS] [--dseq DSEQ] [--pfas PFAS]
+
                   [--binput BINPUT] [--bout BOUT] --bDB BDB [--boutf BOUTF] [--p3out P3OUT] --sub1 SUB1 --sub2 SUB2
                   [--prod_max PROD_MAX] [--p_regions P_REGIONS] [--ps_min PS_MIN] [--ps_max PS_MAX] [--ps_opt PS_OPT]
                   [--pGC_min PGC_MIN] [--pGC_max PGC_MAX] [--pTM_min PTM_MIN] [--pTM_max PTM_MAX] [--pTM_opt PTM_OPT]
                   [--opt_info OPT_INFO] [--f_fst F_FST] [--f_dels_min F_DELS_MIN]
 
 optional arguments:
-  -h, --help                show this help message and exit
+  -h, --help                show this help message and exit\
   --requirments REQUIRMENTS list of packages needed to run
+  
   --input INPUT             path to input.vcf file
   --out OUT                 desired output.csv file name and path
   --ref REF                 path to reference.fasta genome
