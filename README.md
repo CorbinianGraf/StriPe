@@ -16,8 +16,8 @@ StriPe.py [-h] --input INPUT --out OUT --ref REF --bDB BDB [--requirments REQUIR
 &nbsp;&nbsp;&nbsp;&nbsp;[--opt_info OPT_INFO] [--f_fst F_FST] [--f_dels_min F_DELS_MIN]\
 
 optional arguments:
-&nbsp;-h, --help &nbsp;&nbsp;&nbsp;show this help message and exit\
-  --requirments REQUIRMENTS&nbsp;list of packages needed to run\
+  -h, --help                show this help message and exit\
+  --requirments REQUIRMENTS list of packages needed to run\
   --input INPUT             path to input.vcf file\
   --out OUT                 desired output.csv file name and path\
   --ref REF                 path to reference.fasta genome\
